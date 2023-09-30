@@ -1,9 +1,22 @@
+
 .imm{
-    width:10%;
+    max-width:17%;
 }
-.im{
-    width: 50%;
-    height: 0%;
+section img{
+    max-width: 100%;
+}
+
+.navbar{
+    flex-wrap: nowrap;
+    padding: 0;
+}
+
+element.style {
+    color: azure;
+}
+.navbar-brand {
+    padding-bottom: 0;
+    padding-top: 0;
 }
 .container-fluid{
     height: auto;
@@ -29,10 +42,7 @@ p{
 h2{
     text-transform: uppercase;
 }
-/* .sec2 h2 ,.sec2 p{
-    position: relative;
-    left: 10%;
-} */
+
 .sec3{
     text-align: center;
     padding-top: 80px;
@@ -57,10 +67,11 @@ h2{
     list-style: none;
   }
   .footer{
-      padding: 70px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    padding: 70px 0;
   }
   .footer-col{
-     width: 25%;
      padding: 0 15px;
   }
   .footer-col h4{
@@ -100,7 +111,6 @@ h2{
 .social-links a{
     text-decoration: none;
     color: #eee;
-    
 }
 
 .im2{
@@ -127,7 +137,6 @@ h2{
 .row{
     padding-right:0; 
     padding-left:  0;
-    
 }
 .content{
     margin-top: 17px;
